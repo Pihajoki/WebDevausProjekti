@@ -1,0 +1,18 @@
+    body {
+      background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rahapelisanomat.fi%2Fwp-content%2Fuploads%2F2024%2F11%2FOssi-Ketola-scaled.jpg&f=1&nofb=1&ipt=229a242246a5cdd61e9adcdce0ba086b7dc5b2920dc5c2b800774532f5764da9');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      background-attachment: fixed;
+    }
+    h1{
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    h2{
+      margin-bottom: 1em;
+    }
+
+    p{
+      font-size: 1.2em;
+    }
