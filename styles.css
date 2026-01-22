@@ -25,6 +25,9 @@
       color: #e7000b; 
     }
 
+    .index {
+      min-height: 100vh;
+    }
 
     .punfooter{
       background-color: rgba(255, 255, 255);
