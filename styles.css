@@ -5,10 +5,12 @@
       background-repeat: no-repeat; /* Prevents the image from repeating */
       background-attachment: fixed;
     }
+
     h1{
       margin-top: 2em;
       margin-bottom: 2em;
     }
+
     h2{
       margin-bottom: 1em;
     }
@@ -17,4 +19,6 @@
       font-size: 1.2em;
     }
 
-    
+    .punfooter{
+      background-color: rgba(231, 0, 11);
+    }
