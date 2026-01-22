@@ -6,17 +6,19 @@
       background-attachment: fixed;
     }
 
-    h1{
+    .etusivunotsikko{
       margin-top: 2em;
       margin-bottom: 2em;
+      text-shadow: 1px 1px 4px black;
     }
 
     h2{
       margin-bottom: 1em;
     }
 
-    p{
+    .etusivunteksti{
       font-size: 1.2em;
+      text-shadow: 1px 1px 4px black;
     }
 
     .navRed {
