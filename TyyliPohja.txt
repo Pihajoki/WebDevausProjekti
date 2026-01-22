@@ -1,9 +1,8 @@
 Värit:
--
--
--
+Punainen - #e7000b
+Valkoinen - #ffffff
 
 
 Fontit:
--
--
+Otsikko -
+Teksti -
