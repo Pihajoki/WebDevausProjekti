@@ -2,7 +2,7 @@
       background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat; /* Prevents the image from repeating */
+      background-repeat: no-repeat;
       background-attachment: fixed;
     }
 
@@ -30,4 +30,17 @@
       color: rgba(231, 0, 11);
       text-align: center;
       font-size: 20px;
+    }
+
+    .asiakasbox{
+      width: 700px;
+      height: 400px;
+      background-color:rgba(244, 244, 244);
+      margin-top: 200px;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+
+    .kursori{
+      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon.ico'), auto;
     }
