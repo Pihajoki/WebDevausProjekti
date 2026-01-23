@@ -10,7 +10,7 @@
     <title>Asiakaspalvelu</title>
 </head>
 
-<body class="kursori d-flex flex-column min-vh-100">
+<body class="kursori d-flex flex-column min-vh-100 etusivu">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -38,28 +38,25 @@
     </nav>
   </header>
 
-<main class="asiakasbox align-items-center">
+<main class="keskitys asiakasbox align-items-center">
 
 <form style="width: 26rem;">
-  <!-- Name input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="text" id="form4Example1" class="form-control" />
+    <br>
     <label class="form-label" for="form4Example1">Nimi</label>
+    <input type="text" id="form4Example1" class="form-control" />
   </div>
 
-  <!-- Email input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="email" id="form4Example2" class="form-control" />
     <label class="form-label" for="form4Example2">Sähköposti</label>
+    <input type="email" id="form4Example2" class="form-control" />
   </div>
 
-  <!-- Message input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
     <label class="form-label" for="form4Example3">Palaute/Kysely/Tukipyyntö</label>
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
   </div>
 
-  <!-- Checkbox -->
   <div class="form-check d-flex justify-content-center mb-4">
     <input
       class="form-check-input me-2"
@@ -73,8 +70,8 @@
     </label>
   </div>
 
-  <!-- Submit button -->
-  <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+
+  <button data-mdb-ripple-init type="button" class="btn btn-danger btn-block mb-4">Lähetä</button>
 </form>
 
 

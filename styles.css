@@ -35,13 +35,21 @@
     }
 
     .asiakasbox{
-      width: 700px;
-      height: 400px;
+      width: 417px;
+      height: 475px;
       margin-top: 200px;
       margin-left: 200px;
       margin-right: 200px;
+      background-color: rgba(244, 244, 244);
+      border-radius: 10px;
+      font-weight: bold;
     }
 
     .kursori{
       cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
+    }
+
+    .keskitys{
+          align-content: center;
+          text-align: center;
     }
