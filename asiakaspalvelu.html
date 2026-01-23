@@ -36,21 +36,46 @@
         </div>
       </div>
     </nav>
-  </·header>
+  </header>
 
-<main class="asiakasbox">
+<main class="asiakasbox align-items-center">
 
+<form style="width: 26rem;">
+  <!-- Name input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="text" id="form4Example1" class="form-control" />
+    <label class="form-label" for="form4Example1">Nimi</label>
+  </div>
 
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Sähköpostinne</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Kysymys/Palaute/Tukipyyntö</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea> <br>
-        <button type="button" class="btn btn-danger">Lähetä</button>
-</div>
+  <!-- Email input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="email" id="form4Example2" class="form-control" />
+    <label class="form-label" for="form4Example2">Sähköposti</label>
+  </div>
 
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+    <label class="form-label" for="form4Example3">Palaute/Kysely/Tukipyyntö</label>
+  </div>
+
+  <!-- Checkbox -->
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input
+      class="form-check-input me-2"
+      type="checkbox"
+      value=""
+      id="form4Example4"
+      checked
+    />
+    <label class="form-check-label" for="form4Example4">
+      Haluatko kopion tästä viestistä?
+    </label>
+  </div>
+
+  <!-- Submit button -->
+  <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+</form>
 
 
 

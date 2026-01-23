@@ -1,4 +1,6 @@
-    .etusivu {
+
+
+.etusivu {
       background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
       background-size: cover;
       background-position: center;
@@ -35,12 +37,11 @@
     .asiakasbox{
       width: 700px;
       height: 400px;
-      background-color:rgba(244, 244, 244);
       margin-top: 200px;
       margin-left: 200px;
       margin-right: 200px;
     }
 
     .kursori{
-      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon.ico'), auto;
+      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
     }
