@@ -35,8 +35,8 @@
     }
 
     .asiakasbox{
-      width: 417px;
-      height: 475px;
+      width: 70%px;
+      height: 70%px;
       margin-top: 200px;
       margin-left: 200px;
       margin-right: 200px;
@@ -49,10 +49,10 @@
     margin-top: -550px;
     margin-left: 700px;
     margin-right: 200px;
-    width:417px;
+    width:70%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 475px;
+    height: 70%;
     border-radius: 10px;
     box-shadow: 1px 1px 7px black;
     }
