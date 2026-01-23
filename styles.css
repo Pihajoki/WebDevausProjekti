@@ -43,6 +43,17 @@
       background-color: rgba(244, 244, 244);
       border-radius: 10px;
       font-weight: bold;
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .ravintola{
+    background-image: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
+    width:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     }
 
     .kursori{
@@ -52,4 +63,8 @@
     .keskitys{
           align-content: center;
           text-align: center;
+    }
+
+    .bold{
+      font-weight: bold;
     }
