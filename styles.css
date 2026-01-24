@@ -34,6 +34,12 @@
       font-size: 20px;
     }
 
+
+    .kursori{
+      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
+    }
+/* ASIAKASPALVELU ALKAA */
+
     .asiakasbox{
       width: 100%;
       height: auto;
@@ -43,11 +49,6 @@
       background-color: rgba(244, 244, 244);
       border-radius: 10px;
       box-shadow: 1px 1px 7px black;
-    }
-
-
-    .kursori{
-      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
     }
 
     .keskitys{
@@ -63,15 +64,6 @@
       width: 80%;
       height: auto;
     }
-
-    body::after{
-    position:absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true');
-}
 
 @media screen and (max-width: 768px) {
   .asiakasbox{
@@ -102,6 +94,8 @@
     margin-right: auto;
   }
 }
+/* ASIAKASPALVELU LOPPUU */
+
 /* Pääsäiliö */
 .pizzacart-wrapper {
   max-width: 800px;
