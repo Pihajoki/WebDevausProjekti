@@ -78,3 +78,10 @@
     z-index: -1;
     content: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true');
 }
+
+@media screen and (max-width: 768px) {
+  .asiakasbox{
+    width: 100%;
+  }
+
+}
