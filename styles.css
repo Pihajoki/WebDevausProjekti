@@ -59,6 +59,12 @@
       font-weight: bold;
     }
 
+    .kortti {
+      margin: 10px 10px 10px 10px;
+      width: 80%;
+
+    }
+
     body::after{
     position:absolute;
     width: 0;
