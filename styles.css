@@ -79,8 +79,6 @@
   }
 
 }
-
-<<<<<<< Updated upstream
 .test{
   margin-left: 40px;
   margin-right: 40px;
@@ -93,7 +91,8 @@
 
 .nappi{
   margin-left: 45px;
-=======
+}
+
 /* Pääsäiliö */
 .pizzacart-wrapper {
   max-width: 800px;
@@ -195,5 +194,4 @@
     width: 100%;
     order: -1; /* Nostaa tekstin kuvan yläpuolelle mobiilissa */
   }
->>>>>>> Stashed changes
 }
