@@ -4,12 +4,12 @@ WebDevausProjekti
 
 Tavoitteena opiskella web-tekniikoiden perusteet. Pääpaino HTML5 ja CSS3 perusteissa. Kurssin jälkeen osaat:
 
-    luoda verkkosivun käyttäen HTML elementtejä oikein
-    asemoida sisällön sivulle
-    muotoilla sivun ulkoasua CSS tyyleillä
-    toteuttaa responsiivisia sivuja, jotka toimivat mobiililaitteissakin
-    perusteet websuunnittelusta ja käytettävyydesta
-    julkaista sivu/sivusto palvelimelle
+    > luoda verkkosivun käyttäen HTML elementtejä oikein
+    > asemoida sisällön sivulle
+    > muotoilla sivun ulkoasua CSS tyyleillä
+    > toteuttaa responsiivisia sivuja, jotka toimivat        mobiililaitteissakin
+    > perusteet websuunnittelusta ja käytettävyydesta
+    > julkaista sivu/sivusto palvelimelle
 
 <h2>Tehtävät ja projektityö </h2>
 
