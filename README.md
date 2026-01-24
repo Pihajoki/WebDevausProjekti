@@ -7,7 +7,7 @@ Tavoitteena opiskella web-tekniikoiden perusteet. Pääpaino HTML5 ja CSS3 perus
     > luoda verkkosivun käyttäen HTML elementtejä oikein
     > asemoida sisällön sivulle
     > muotoilla sivun ulkoasua CSS tyyleillä
-    > toteuttaa responsiivisia sivuja, jotka toimivat        mobiililaitteissakin
+    > toteuttaa responsiivisia sivuja, jotka toimivat    mobiililaitteissakin
     > perusteet websuunnittelusta ja käytettävyydesta
     > julkaista sivu/sivusto palvelimelle
 
