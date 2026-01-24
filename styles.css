@@ -80,6 +80,7 @@
 
 }
 
+<<<<<<< Updated upstream
 .test{
   margin-left: 40px;
   margin-right: 40px;
@@ -92,4 +93,107 @@
 
 .nappi{
   margin-left: 45px;
+=======
+/* Pääsäiliö */
+.pizzacart-wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif; /* Tai projektinne yhteinen fontti */
+}
+
+/* Tuoterivin tyylit - Flexbox pitää osat suorassa rivissä */
+.pizzacart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+/* Kuva */
+.pizzacart-item__image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Tekstiosio täyttää vapaan tilan */
+.pizzacart-item__details {
+  flex-grow: 1;
+}
+
+.pizzacart-item__title {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.pizzacart-item__description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.pizzacart-item__customizations {
+  font-size: 0.8rem;
+  color: #e67e22; /* Erottuva väri muokkauksille */
+}
+
+/* Määrän säätimet */
+.pizzacart-item__quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pizzacart-item__btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizzacart-item__btn:hover {
+  background: #f8f8f8;
+}
+
+/* Hinta */
+.pizzacart-item__price-tag {
+  font-weight: bold;
+  min-width: 80px;
+  text-align: right;
+}
+
+/* Poistonappi */
+.pizzacart-item__remove {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.pizzacart-item__remove:hover {
+  color: #e74c3c;
+}
+
+/* Responsiivisuus: kapealla näytöllä rivi muuttuu pystyyn */
+@media (max-width: 600px) {
+  .pizzacart-item {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pizzacart-item__details {
+    width: 100%;
+    order: -1; /* Nostaa tekstin kuvan yläpuolelle mobiilissa */
+  }
+>>>>>>> Stashed changes
 }
