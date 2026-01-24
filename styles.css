@@ -52,7 +52,6 @@
 
     .keskitys{
           align-content: center;
-          text-align: center;
     }
 
     .bold{
@@ -68,9 +67,23 @@
     content: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true');
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .asiakasbox{
     width: 100%;
   }
 
+}
+
+.test{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.startti{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.nappi{
+  margin-left: 45px;
 }
