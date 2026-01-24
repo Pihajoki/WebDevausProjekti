@@ -61,7 +61,7 @@
     .kortti {
       margin: 10px 10px 10px 10px;
       width: 80%;
-
+      height: auto;
     }
 
     body::after{
@@ -92,4 +92,14 @@
 
 .nappi{
   margin-left: 45px;
+}
+
+@media screen and (max-width: 576px) {
+  .media {
+    flex-direction: column;
+  }
+  .kortti {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
