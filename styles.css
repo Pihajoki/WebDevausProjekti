@@ -38,24 +38,13 @@
       width: 100%;
       height: auto;
       margin-top: 200px;
-      margin-left: 300px;
-      margin-right: 200px;
+      margin-left: 510px;
+      margin-right: 300px;
       background-color: rgba(244, 244, 244);
       border-radius: 10px;
       box-shadow: 1px 1px 7px black;
     }
 
-    .ravintola{
-      width: 80%;
-      height: 100%;
-    position: relative;
-    left: 100px;
-    top: 70px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 10px;
-      box-shadow: 1px 1px 7px black;
-    }
 
     .kursori{
       cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
@@ -79,7 +68,7 @@
     content: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true');
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .asiakasbox{
     width: 100%;
   }
