@@ -76,6 +76,14 @@
       box-shadow: 1px 1px 7px black;
     }
 
+    @media screen and (max-width: 768px) {
+      .aspboxes {
+        flex-direction: column;
+      }
+    }
+.margin{
+  margin-top: 10%;
+}
     .keskitys{
           align-content: center;
     }
@@ -84,18 +92,6 @@
       font-weight: bold;
     }
 
-@media screen and (max-width: 576px) {
-  .asiakasbox{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 768px) {
-  .asiakasbox{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 .test{
   margin-left: 40px;
   margin-right: 40px;
