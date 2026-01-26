@@ -1,7 +1,23 @@
 
   @import url('https://fonts.google.com/specimen/Merriweather?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
 
+body::after{
+    position:absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
+}
 
+    body::after{
+    position:absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true);
+    }
 
   /* Yhteiset css määritykset */
     .etusivu {
@@ -113,11 +129,11 @@
 }
 
 .omistaja {
-    background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
 
 /* ASIAKASPALVELU LOPPUU */
