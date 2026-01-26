@@ -1,4 +1,8 @@
 
+  @import url('https://fonts.google.com/specimen/Merriweather?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
+
+
+
   /* Yhteiset css määritykset */
     .etusivu {
       background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
@@ -6,6 +10,11 @@
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
+    }
+
+    .fontti{
+    font-family: "Merriweather", system-ui;
+    font-size: 16px;
     }
 
     .etusivunotsikko{
@@ -51,11 +60,6 @@
         margin-left: auto;
         margin-right: auto;
       }
-    }
-
-    .imgCustom {
-      height: 180px;
-  object-fit: cover;
     }
   /* Ruokalista loppuu */
     .kursori{
@@ -107,6 +111,14 @@
 .nappi{
   margin-left: 45px;
 }
+
+    .omistaja {
+      background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
 
 /* ASIAKASPALVELU LOPPUU */
 
