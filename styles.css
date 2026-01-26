@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.google.com/specimen/Oswald?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pirata+One&display=swap');
 
   /* Yhteiset css määritykset */
     .etusivu {
@@ -11,8 +11,9 @@
     }
 
     .fontti{
-    font-family: "Oswald", system-ui;
-    font-size: 16px;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
     }
 
     .etusivunotsikko{
