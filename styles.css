@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.google.com/specimen/Merriweather?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
+  @import url('https://fonts.google.com/specimen/Oswald?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
 
   /* Yhteiset css määritykset */
     .etusivu {
@@ -11,7 +11,7 @@
     }
 
     .fontti{
-    font-family: "Merriweather", system-ui;
+    font-family: "Oswald", system-ui;
     font-size: 16px;
     }
 
@@ -63,7 +63,7 @@
     .kursori{
       cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
     }
-/* ASIAKASPALVELU ALKAA */
+/* ASIAKASPALVELU ALKAA, tekijä Roni Pihajoki */
 
     .asiakasbox{
       width: 100%;
