@@ -1,24 +1,6 @@
 
   @import url('https://fonts.google.com/specimen/Merriweather?categoryFilters=Feeling%3A%2FExpressive%2FBusiness');
 
-body::after{
-    position:absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
-}
-
-    body::after{
-    position:absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true);
-    }
-
   /* Yhteiset css määritykset */
     .etusivu {
       background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
@@ -132,7 +114,8 @@ body::after{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -240,3 +223,22 @@ body::after{
     order: -1; /* Nostaa tekstin kuvan yläpuolelle mobiilissa */
   }
 }
+
+/*Kuvien lataus*/
+body::after{
+    position:absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
+}
+
+    body::after{
+    position:absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true);
+    }
