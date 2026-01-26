@@ -52,6 +52,11 @@
         margin-right: auto;
       }
     }
+
+    .imgCustom {
+      height: 180px;
+  object-fit: cover;
+    }
   /* Ruokalista loppuu */
     .kursori{
       cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
