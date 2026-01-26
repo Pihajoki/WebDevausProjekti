@@ -1,6 +1,6 @@
 
-
-.etusivu {
+  /* Yhteiset css määritykset */
+    .etusivu {
       background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
       background-size: cover;
       background-position: center;
@@ -34,24 +34,25 @@
       font-size: 20px;
     }
 
-/* Ruokalista alkaa, tekijä Matti Lope */
+  /* Ruokalista alkaa, tekijä Matti Lope */
 
-    .kortti {
+    .customCard {
       margin: 10px 10px 10px 10px;
       width: 80%;
       height: auto;
     }
-
+  /* Kortit keskelle allekkain pienellä ruudulla */
     @media screen and (max-width: 768px) {
       .media {
         flex-direction: column;
       }
+      
       .kortti {
         margin-left: auto;
         margin-right: auto;
       }
     }
-/* Ruokalista loppuu */
+  /* Ruokalista loppuu */
     .kursori{
       cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
     }
