@@ -112,13 +112,13 @@
   margin-left: 45px;
 }
 
-    .omistaja {
-      background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
+.omistaja {
+    background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
 /* ASIAKASPALVELU LOPPUU */
 
