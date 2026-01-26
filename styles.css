@@ -16,7 +16,12 @@
   font-weight: auto;
   font-style: normal;
     }
-
+    * {
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: auto;
+      font-style: normal;
+    }
     .etusivunotsikko{
       margin-top: 2em;
       margin-bottom: 2em;
