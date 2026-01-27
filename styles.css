@@ -1,46 +1,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-  /* Yhteiset css määritykset */
-    .etusivu {
-      background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
+/* Yhteiset css määritykset */
+.etusivu {
+  background-image: url('https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-    * {
-      font-family: "Oswald", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: auto;
-      font-style: normal;
-    }
-    .etusivunotsikko{
-      margin-top: 2em;
-      margin-bottom: 2em;
-      text-shadow: 1px 1px 4px black;
-    }
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
 
-    .etusivunteksti{
-      font-size: 1.2em;
-      text-shadow: 1px 1px 4px black;
-    }
+.etusivunotsikko{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-shadow: 1px 1px 4px black;
+}
 
-    .navRed {
-      color: #e7000b; 
-    }
+.etusivunteksti{
+  font-size: 1.2em;
+  text-shadow: 1px 1px 4px black;
+}
 
-    .index {
-      min-height: 100vh;
-    }
+.navRed {
+  color: #e7000b;
+}
 
-    .punfooter{
-      background-color: rgba(255, 255, 255);
-      color: rgba(231, 0, 11);
-      text-align: center;
-      font-size: 20px;
-    }
+.index {
+  min-height: 100vh;
+}
+
+.punfooter{
+  background-color: rgba(255, 255, 255);
+  color: rgba(231, 0, 11);
+  text-align: center;
+  font-size: 20px;
+}
+
+.kursori{
+  cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
+}
 
   /* Ruokalista alkaa, tekijä Matti Lope */
 
@@ -68,64 +73,45 @@
       }
     }
   /* Ruokalista loppuu */
-    .kursori{
-      cursor: url('https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon(1).ico'), auto;
-    }
+
 /* ASIAKASPALVELU ALKAA, tekijä Roni Pihajoki */
 
-    .asiakasbox{
-      width: 100%;
-      height: auto;
-      margin-top: 200px;
-      margin-left: 400px;
-      margin-right: 300px;
-      background-color: rgba(244, 244, 244);
-      border-radius: 10px;
-      box-shadow: 1px 1px 7px black;
-    }
-
-    @media screen and (max-width: 768px) {
-      .aspboxes {
-        flex-direction: column;
-      }
-    }
-.margin{
+@media screen and (max-width: 768px) { /*Puhelimen Skaalaus*/
+  .aspboxes {
+    flex-direction: column;
+  }
+}
+.margin{ /*Tilaa hederista laatikoihin*/
   margin-top: 10%;
 }
-    .keskitys{
-          align-content: center;
-    }
-
-    .bold{
-      font-weight: bold;
-    }
-
-.test{
-  margin-left: 40px;
-  margin-right: 40px;
+.keskitys{
+  align-content: center;
 }
 
-.startti{
+.bold{
+  font-weight: bold;
+}
+
+.startti{ /*Siirto vasempaan.*/
   text-align: left;
   margin-left: 10px;
 }
 
-.nappi{
+.nappi{ /*Napin siirto reunasta*/
   margin-left: 45px;
 }
 
-.omistaja {
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  }
+.omistaja { /*Erillinen kuva.*/
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
-.omistajadiv{
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: 400px;
-
+.omistajadiv{ /*Kuvan "kehys"*/
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: 400px;
 }
 
 /* ASIAKASPALVELU LOPPUU */
@@ -242,19 +228,19 @@
 /*YLEISET*/
 /*Kuvien lataus*/
 body::after{
-    position:absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
+  position:absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true);
 }
 
-    body::after{
-    position:absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true);
-    }
+body::after{
+  position:absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(https://github.com/Pihajoki/WebDevausProjekti/blob/main/shishkebabo.png?raw=true);
+}
