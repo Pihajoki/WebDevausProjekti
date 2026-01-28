@@ -55,11 +55,11 @@
       height: auto;
     }
 
-      .imgCustom {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
-}
+    .imgCustom {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
     
   /* Kortit keskelle allekkain pienellä ruudulla */
     @media screen and (max-width: 768px) {
