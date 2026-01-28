@@ -238,6 +238,10 @@
   width: 100%;
   max-width: 300px;
 }
+.cashout{
+  display: flex;
+  text-align: center;
+}
 
 /* Responsiivisuus: kapealla näytöllä rivi muuttuu pystyyn */
 @media (max-width: 768px) {
