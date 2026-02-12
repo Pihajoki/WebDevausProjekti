@@ -1,17 +1,35 @@
-<!--ASIAKASPALVELU tekijä Roni Pihajoki-->
+<!--Ruokalista tekijä Matti Lope-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="https://github.com/Pihajoki/WebDevausProjekti/raw/refs/heads/main/favicon.ico" type="image/x-icon">
-    <title>Asiakaspalvelu</title>
+    <title>Ketola Kebab</title>
 </head>
+<body class="d-flex flex-column min-vh-100 kursori">
 
-<body class="kursori d-flex flex-column min-vh-100 fontti">
+  <?php include('dbh.php'); ?>
+
+  <?php
+
+  $sql = "SELECT * FROM annokset";
+  
+  // Valmistellaan kysely
+  $stmt = $pdo->prepare($sql);
+  
+  // Suoritetaan kysely
+  $stmt->execute();
+
+  // Haetaan kaikki rivit
+  $rivit = $stmt -> fetchAll();
+
+  // Suljetaan yhteys
+  $pdo = null;
+  
+  ?>
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bold ps-5">
       <div class="container-fluid">
@@ -25,62 +43,38 @@
               <a class="nav-link" href="index.html">Etusivu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="ruokalista.html">Ruokalista</a>
+              <a class="nav-link active" aria-current="page" href="ruokalista.php">Ruokalista</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="tilaus.html">Tee Tilaus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="asiakaspalvelu.html">Asiakaspalvelu</a>
+              <a class="nav-link" href="asiakaspalvelu.php">Asiakaspalvelu</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-
-<main class="bold keskitys d-flex align-items-center margin">
-  <div class="container">
-    <div class="row align-items-center aspboxes">
-      <div class="col">
-        <form>
-          <div class="form-outline mb-4">
-            <label class="form-label startti" for="form4Example1">Nimi</label>
-            <input type="text" id="form4Example1" class="form-control" />
-          </div>
-
-          <div class="form-outline mb-4">
-            <label class="form-label startti" for="form4Example2">Sähköposti</label>
-            <input type="email" id="form4Example2" class="form-control" />
-          </div>
-
-          <div class="form-outline mb-4">
-            <label class="form-label startti" for="form4Example3">Palaute/Kysely/Tukipyyntö</label>
-            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          </div>
-
-          <div class="form-check d-flex justify-content-start mb-4">
-            <input class="form-check-input me-2" type="checkbox" id="form4Example4" checked />
-            <label class="form-check-label startti" for="form4Example4">
-              Haluatko kopion tästä viestistä?
-            </label>
-          </div>
-          <button type="submit" class="btn btn-danger btn-block mb-4 nappi">Lähetä</button>
-        </form>
-      </div>
-      <div class="col text-center">
-        <img class="omistaja img-fluid" src="https://github.com/Pihajoki/WebDevausProjekti/blob/main/ketola.png?raw=true" alt="Omistaja Ketolan Kebab">
-      </div>
-
+  <main class="d-flex align-items-center min-vh-100">
+    <div class="container text-center">
+      <div class="row media">
+      <?php  foreach( $rivit as $rivi ): ?> 
+        <div class="col-4">
+          <article class="card customCard">
+            <img src="<?=  $rivi['Kuva']; ?> " class="card-img-top" alt="Kuva annoksesta">
+            <div class="card-body">
+              <h3 class="card-title"><?= $rivi['nimi']; ?>  </h3>
+              <h4 class="card-subtitle mb-2 text-body-secondary"><?=  $rivi['tiedot']; ?> </h4>
+              <p class="card-text"><?= $rivi['hinta']; ?>€ </p>
+            </div>
+          </article>
+        </div> 
+      <?php endforeach; ?>
     </div>
-  </div>
-</main>
-
-
-
-
-
+  </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 <footer class="punfooter text-center text-lg-start mt-auto">
   <div class="text-center p-3">
     © 2026 Copyright:
